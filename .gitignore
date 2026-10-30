@@ -1,0 +1,19 @@
+.DS_Store
+.venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.jupyter/
+.cache/
+
+# Source corpora and generated model binaries
+data/*.txt
+!data/checksums.txt
+data_smoke/
+*.model
+*.kv
+*.npy
+
+# Assignment handout and personal report
+README.pdf
+*.docx
